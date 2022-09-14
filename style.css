@@ -1,0 +1,66 @@
+
+.tasks-container {
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 8px;
+}
+
+.w3-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc
+}
+
+.w3-table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+.w3-table-all tr:nth-child(odd) {
+    background-color: #f1f1f1
+}
+
+.w3-table-all tr:nth-child(even) {
+    background-color: #fff
+}
+
+.w3-table-all td,
+.w3-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+.w3-table-all th:first-child,
+.w3-table-all td:first-child {
+    padding-left: 16px
+}
+
+.w3-table-all th {
+    background-color: #d0d0d0;
+}
+
+.add-task-container {
+    position: relative;
+    margin-top: 10px;
+}
+.add-task-container div{
+    position: absolute;
+    top: 0;
+    right: 60px;
+    left: 45px;
+}
+.add-task-container div input{
+    width: 100%;
+}
+
+.add-task-container input{
+    position: absolute;
+    width:50px;
+    top: 0;
+    right: 0;
+}
